@@ -50,6 +50,17 @@ atan2는 값을 라디안값으로 출력하기에 이를 deg값으로 변환해
 
 결과)
 -180 ~ 0까지, 0 ~ 180까지 측정이 가능했습니다.
+
 ![image](https://user-images.githubusercontent.com/59642490/119837534-a52c8280-bf3d-11eb-8774-7d5134a78b0e.png)![image](https://user-images.githubusercontent.com/59642490/119837629-bd9c9d00-bf3d-11eb-85c4-aa83caee95f6.png)
 
+걸음을 인식)
+시작은 가축이 가만히 서있는 상태에서 앞다리를 앞으로 움직이는 순간의 각도, x, z축 가속도 값의 변화량을 이용하여 걸음을 인식하였습니다.
 
+직접 측정한 값들을 확인하여 조건을 만족하는 경우 걸음 수를 추가!
+![image](https://user-images.githubusercontent.com/59642490/119852916-b039df80-bf4a-11eb-9548-f4f7b3aff258.png)
+
+결과)
+![image](https://user-images.githubusercontent.com/59642490/119852652-72d55200-bf4a-11eb-9383-b2eff2a0af1e.png)![image](https://user-images.githubusercontent.com/59642490/119852791-91d3e400-bf4a-11eb-95c4-e35e0c14caa6.png)
+
+
+이후에는 뒷 걸음에 대해 구현할 예정입니다.
