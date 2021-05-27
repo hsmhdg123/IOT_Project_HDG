@@ -59,7 +59,10 @@ atan2는 값을 라디안값으로 출력하기에 이를 deg값으로 변환해
 400ms 마다 전에 저장한 각도, x, z 가속도 값과 비교하여 일정 값만큼 차이가 나면서, 새롭게 들어온 data가 걸음을 걷기위해 앞발을 들어올린 경우의 각도, x, z 가속도 값인 경우일때 걸음을 측정!
 
 위의 조건을 만족하는 경우 걸음 수를 추가!
+
 ![image](https://user-images.githubusercontent.com/59642490/119852916-b039df80-bf4a-11eb-9548-f4f7b3aff258.png)
+
+
 
 결과)
 ![image](https://user-images.githubusercontent.com/59642490/119852652-72d55200-bf4a-11eb-9383-b2eff2a0af1e.png)![image](https://user-images.githubusercontent.com/59642490/119852791-91d3e400-bf4a-11eb-95c4-e35e0c14caa6.png)
