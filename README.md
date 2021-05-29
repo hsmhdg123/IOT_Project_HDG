@@ -69,7 +69,8 @@ openweathermap.api를 사용하여 원하는 지역의 날씨를 0.4초마다 �
 millis함수를 이용하여 0.4초의 딜레이를 만들었고, 100번 반복된 경우에만 알람이 간다!
 ![image](https://user-images.githubusercontent.com/59642490/120076973-12c5e380-c0e3-11eb-9e53-cb86e190a341.png)
 ![image](https://user-images.githubusercontent.com/59642490/120076997-283b0d80-c0e3-11eb-8fa2-6cc41f80f65e.png)
-![image](https://user-images.githubusercontent.com/59642490/120077036-5587bb80-c0e3-11eb-9d2a-d665e4b96461.png)
+![image](https://user-images.githubusercontent.com/59642490/120077069-87008700-c0e3-11eb-8765-fad4a3c6118d.png)
+
 
 
 
