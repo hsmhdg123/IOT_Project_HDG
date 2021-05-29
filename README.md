@@ -54,19 +54,27 @@ atan2는 값을 라디안값으로 출력하기에 이를 deg값으로 변환해
 
 기승행위 구별하기)
 수컷이 기승행위를 시도할 때 앞 다리의 각도, x, z축 가속도 값을 확인하여 어느정도 높이에 다리가 올라간 경우를 기승 자세라고 정하였습니다.
+
+
 ![image](https://user-images.githubusercontent.com/59642490/120074623-a47c2380-c0d8-11eb-909b-5cd982025226.png)
+
 
 기승 위라고 판단되는 자세가 3번 count되는 경우. 즉, 1.2초간 기승 자세가 인식된다면, 사용자에게 발정기가 의심된다는 메시지를 보냅니다.
 
 
 
 **날씨 data 가져와서 비교하기**
+
 openweathermap.api를 사용하여 원하는 지역의 날씨를 0.4초마다 불러와서 실시간으로 비, 눈이 내리는 사실을 전달!
+
+
 ![image](https://user-images.githubusercontent.com/59642490/120076944-ed38da00-c0e2-11eb-977b-fd70e3f38c85.png)
 
 
 이때, 눈 혹은 비가 내리는 경우 40초에 한 번씩 사용자의 핸드폰으로 알람이 가도록 IFTTT를 사용!
 millis함수를 이용하여 0.4초의 딜레이를 만들었고, 100번 반복된 경우에만 알람이 간다!
+
+
 ![image](https://user-images.githubusercontent.com/59642490/120076973-12c5e380-c0e3-11eb-9e53-cb86e190a341.png)
 ![image](https://user-images.githubusercontent.com/59642490/120076997-283b0d80-c0e3-11eb-8fa2-6cc41f80f65e.png)
 ![image](https://user-images.githubusercontent.com/59642490/120077069-87008700-c0e3-11eb-8765-fad4a3c6118d.png)
