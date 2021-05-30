@@ -80,7 +80,8 @@ DHT11을 사용하기위해 기존에 작성한 함수를 이용함 (페이즈1 
 결과)
 
 
-![image](https://user-images.githubusercontent.com/59642490/120113693-94d30c80-c1b6-11eb-8e28-1a93f6fb17be.png)
+![image](https://user-images.githubusercontent.com/59642490/120113898-9b15b880-c1b7-11eb-9f7b-5d518c4a34fb.png)
+
 
 
 
